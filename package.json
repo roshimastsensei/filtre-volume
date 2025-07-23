@@ -1,3 +1,12 @@
 {
-  "type": "module"
+  "name": "volume-ratio",
+  "version": "1.0.0",
+  "description": "Proxy API for computing 3J/90J volume ratio",
+  "main": "volume_ratio.ts",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
 }
